@@ -11,9 +11,9 @@ frm.addEventListener("Submit", (e) => {
     //console.log("Ola mundo, botao cliclou")
 
     const nome = frm.inNome.value;
-    const nota1 = frm.inNota1.value;
-    const nota2 = frm.inNota2.value;
+    const nota1 = Number(frm.inNota1.value);
+    const nota2 = Number(frm.inNota2.value);
 
     const media = (nota1 + nota2) / 2;
-    
+
 })
