@@ -16,5 +16,5 @@ frm.addEventListener("Submit", (e) => {
 
     const media = (nota1 + nota2) / 2;
 
-    resp1.innerText = `Média das Notas é ${media}`
+    resp1.innerText = `Média das Notas é ${media.toFixed(2)}`
 })
